@@ -1,8 +1,6 @@
 import Head from "next/head";
-import { DiGithubBadge, DiGithubFull } from "react-icons/di";
+import { DiGithubBadge } from "react-icons/di";
 import { MdOutlineMail } from "react-icons/md";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
@@ -22,12 +20,12 @@ export default function Home() {
 					</h2>
 				</div>
 
-				<p className="mt-6 text-lg md:w-[360px] mx-auto">
+				<p className="mt-6 text-lg md:w-[360px] mx-auto leading-snug">
 					Hey there! I'm Inam. I build web, desktop, and mobile
 					applications for a living.
 				</p>
 
-				<p className="mt-12 flex flex-col items-center justify-center gap-1">
+				<p className="mt-8 flex flex-col items-center justify-center gap-1">
 					<a
 						href="https://github.com/Inambe"
 						target="_blank"
