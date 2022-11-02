@@ -21,7 +21,7 @@ export default function Home() {
 				</div>
 
 				<p className="mt-6 text-lg md:w-[360px] mx-auto leading-snug">
-					Hey there! I'm Inam. I build web, desktop, and mobile
+					Hey there! I{"'"}m Inam. I build web, desktop, and mobile
 					applications for a living.
 				</p>
 
