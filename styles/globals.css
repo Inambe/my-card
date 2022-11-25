@@ -6,5 +6,5 @@
 
 body {
 	font-family: "Sen", sans-serif;
-	@apply tracking-tight text-gray-700;
+	@apply tracking-tight text-gray-900;
 }

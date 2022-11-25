@@ -4,13 +4,19 @@ import { MdOutlineMail } from "react-icons/md";
 
 export default function Home() {
 	return (
-		<div className="px-6 h-screen bg-purple-500 text-center flex items-center">
+		<div
+			className="px-6 h-screen text-center flex items-center"
+			style={{
+				background: "url(/geometric-g8b70ac0eb_1920.jpg)",
+				backgroundSize: "cover",
+			}}
+		>
 			<Head>
 				<title>Inam.</title>
 				<meta name="description" content="Inam." />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className="p-12 shadow-lg rounded-lg bg-white bg-opacity-95 md:w-[600px] mx-auto">
+			<div className="p-12 shadow-lg rounded-lg bg-white/70 backdrop-blur-sm md:w-[600px] mx-auto">
 				<div className="tracking-tighter">
 					<h1 className="font-bold text-4xl md:text-6xl">
 						Inam Ul Huq
